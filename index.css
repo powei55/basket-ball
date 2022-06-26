@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-image: url(https://media.gettyimages.com/photos/ball-and-basketball-court-picture-id183256716?s=612x612);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.home {
+    margin-left: 87px;
+    margin-top: 30px;
+    align-items: center;
+    color: #eeeeee;
+    
+}
+.score-heading {
+    display: flex;
+    width:80px;
+    height:80px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #c1121f;
+    background: #14213d;
+    margin-left: 80px
+}
+.guest{
+    margin-top: 30px;
+    color: #eeeeee;
+    margin-left: 83px;
+}
+#home-btn1 {
+    margin-left: 73px
+}
+#guest-btn1 {
+    margin-left: 74px;
+}
+button{
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: none;
+    background: #d5bdaf
+}
+#new-el {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 150px 0 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #780000;
+    
+     
+}
